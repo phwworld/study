@@ -55,6 +55,7 @@ const getNewsByKeyword = async () => {
 }
 
 const render = () => {
+    console.log(newsList);
     const renderTarget = document.querySelector('.newsArea');
     const newsHTML = newsList.map((item) => `
     <div class="news">
